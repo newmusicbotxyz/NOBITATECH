@@ -70,12 +70,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002223516578"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001511253627"))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6972508083").split())
+    map(int, getenv("OWNER_ID", "6641988750").split())
 )  # Input type must be interger
 
 
@@ -217,27 +217,27 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://envs.sh/WjQ.jpg",
+    "https://envs.sh/pwS.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/pwS.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/pwS.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/pwS.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/pwS.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
